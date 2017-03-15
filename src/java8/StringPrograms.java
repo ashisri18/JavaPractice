@@ -54,6 +54,11 @@ class Student{
 		}
 	}*/
 	
-	
+	public void aboutString(){
+		String s1 = "Ashish";
+		System.out.println(s1);
+		s1 = s1.concat("Sudha");
+		System.out.println(s1);
+	}
  
 }

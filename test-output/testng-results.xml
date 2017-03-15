@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26" started-at="2017-03-13T09:01:38Z" finished-at="2017-03-13T09:01:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26" started-at="2017-03-13T09:01:38Z" finished-at="2017-03-13T09:01:38Z">
+      <class name="java8.AboutString">
+        <test-method status="PASS" signature="createStringBuffer()[pri:0, instance:java8.AboutString@7921b0a2]" name="createStringBuffer" duration-ms="8" started-at="2017-03-13T14:31:38Z" finished-at="2017-03-13T14:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStringBuffer -->
+        <test-method status="PASS" signature="createStringLiteral()[pri:0, instance:java8.AboutString@7921b0a2]" name="createStringLiteral" duration-ms="1" started-at="2017-03-13T14:31:38Z" finished-at="2017-03-13T14:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStringLiteral -->
+        <test-method status="PASS" signature="createStringNew()[pri:0, instance:java8.AboutString@7921b0a2]" name="createStringNew" duration-ms="1" started-at="2017-03-13T14:31:38Z" finished-at="2017-03-13T14:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStringNew -->
+      </class> <!-- java8.AboutString -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

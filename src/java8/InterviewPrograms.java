@@ -7,7 +7,7 @@ import java.util.Set;
 public class InterviewPrograms {
 	
 	public static void main(String[] args) {
-		duplicateCharacterInString();
+		duplicatechar();
 	}
 	
 // To find duplicate characters in String.
@@ -32,5 +32,27 @@ public class InterviewPrograms {
 				System.out.println(ch+" --> "+dupMap.get(ch));
 			}
 		}
+	}
+
+	// To find duplicate characters in String.
+	public static void duplicatechar(){
+		String str1="SudhaMahadev";
+		String str2=null;
+		for(int i=0;i<str1.length();i++)
+		{
+			for(int j=0;j<str2.length();j++)
+			{
+				if(str1.charAt(i)==str2.charAt(j))
+				{
+					str2=str2+str1.charAt(i);
+				}
+			}
+		}
+	}
+	
+	
+// From numbers 1 to N, one number is repeating, find that number.
+	public static void duplicateNumber(){
+		
 	}
 }
